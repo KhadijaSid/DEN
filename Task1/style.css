@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navBar {
+  background-color: #c2ffbccb;
+  color: white;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  height: 50px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.homePage {
+  height: 652px;
+  background-image: url("couple.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.homeContent {
+  height: 602px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+}
+
+.homeHeading {
+  font-size: 4rem;
+}
+
+.homeTxt {
+  font-size: 2rem;
+}
+
+.homeDate {
+  font-size: 2rem;
+}
+
+.couplePage {
+  height: 870px;
+  background-color: #c2ffbccb;
+  color: rgb(80, 80, 80);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+}
+
+.couplePic {
+  height: 421px;
+  width: 735px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("couple2.jpg");
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.coupleHeading {
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+}
+
+.coupleParah {
+  font-size: 1.2rem;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.weddingBtn {
+  height: 60px;
+  width: 184px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+}
+
+.weddingBtn:hover {
+  background-color: rgb(180, 180, 180);
+  color: black;
+  cursor: pointer;
+}
+
+.flowerSection {
+  height: 655px;
+  background-image: url("flowers3.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flowerTxt {
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+}
+
+.flowerTxt2 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+}
+
+.wedding {
+  color: rgb(80, 80, 80);
+  height: 900px;
+  background-color: #c2ffbccb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weddingHeading {
+  margin-top: 40px;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+}
+
+.weddingPhoto {
+  margin-top: 40px;
+  height: 499px;
+  width: 749px;
+  background-image: url("venue2.jpg");
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.venue {
+  margin-top: 90px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.whenHead {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.whenTxt {
+  font-size: 1.2rem;
+}
+
+.rsvp {
+  color: rgb(48, 48, 48);
+  height: 400px;
+  background-color: #7bbd75cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 3rem;
+  color: black;
+  text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  letter-spacing: 2px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.rsvpTxt {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.rsvpBtn {
+  height: 60px;
+  width: 184px;
+  background-color: rgb(67, 94, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+}
+
+.rsvpBtn:hover {
+  background-color: rgb(180, 180, 180);
+  color: black;
+  cursor: pointer;
+}
+
+.from {
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    background-color: #c2ffbccb;
+    color: white;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+    height: 50px;
+    font-size: 1rem;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  }
+  .homePage {
+    height: 400px;
+    background-image: url("couple.jpg");
+    background-size: cover;
+    color: white;
+    /* width: 100%; */
+  }
+  .homeContent {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  }
+  .homeHeading {
+    font-size: 2rem;
+  }
+
+  .homeTxt {
+    font-size: 1rem;
+  }
+
+  .homeDate {
+    font-size: 1rem;
+  }
+  .couplePage {
+    height: 650px;
+    background-color: #c2ffbccb;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  .couplePic {
+    height: 250px;
+    width: 349px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("couple2.jpg");
+    border-radius: 2px;
+    background-size: cover;
+  }
+  .coupleHeading {
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .coupleParah {
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .weddingBtn {
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  .flowerSection {
+    height: 455px;
+    background-image: url("flowers3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flowerTxt {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  }
+
+  .flowerTxt2 {
+    font-size: 1rem;
+    color: white;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  }
+  .wedding {
+    color: rgb(80, 80, 80);
+    height: 500px;
+    background-color: #c2ffbccb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .weddingHeading {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+  }
+
+  .weddingPhoto {
+    margin-top: 20px;
+    height: 299px;
+    width: 349px;
+    background-image: url("venue2.jpg");
+    border-radius: 2px;
+    background-size: cover;
+  }
+
+  .venue {
+    margin-top: 30px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  .whenHead {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .whenTxt {
+    font-size: 0.8rem;
+  }
+  .rsvp {
+    color: rgb(48, 48, 48);
+    height: 250px;
+    background-color: #7bbd75cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px rgba(0, 0, 0, 0.521);
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .rsvpTxt {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .rsvpBtn {
+    height: 30px;
+    width: 130px;
+    background-color: rgb(67, 94, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
